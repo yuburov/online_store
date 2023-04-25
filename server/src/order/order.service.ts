@@ -3,7 +3,6 @@ import { PrismaService } from 'src/prisma/prisma.service';
 import { OrderDto, PaymentStatusDto } from './dto';
 import { returnProductObject } from '../product/return-product.object';
 import * as YooKassa from 'yookassa';
-import { faker } from '@faker-js/faker';
 import { EnumOrderStatus } from '@prisma/client';
 
 const yooKassa = new YooKassa({
