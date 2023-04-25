@@ -49,7 +49,7 @@ const Cart: FC = () => {
       />
       <div
         className={cn(
-          "absolute top-16 w-80 -right-12 bg-secondary rounded-xl px-5 py-3 text-sm menu z-20 text-white",
+          "absolute top-16 w-80 -right-12 bg-secondary max-h-[100vh] scroll overflow-x-hidden overflow-y-auto rounded-xl px-5 py-3 text-sm menu z-20 text-white",
           isShow ? "open-menu" : "close-menu"
         )}
       >

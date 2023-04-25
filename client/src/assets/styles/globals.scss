@@ -19,3 +19,7 @@ body {
 .close-menu {
 	display: none;
 }
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}

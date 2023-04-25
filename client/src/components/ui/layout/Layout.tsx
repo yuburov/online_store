@@ -10,9 +10,9 @@ const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
         <Sidebar />
         <main className="p-12">{children}</main>
       </div>
-      <footer className="bg-secondary w-full py-7 px-6 text-center">
+      {/* <footer className="bg-secondary w-full py-7 px-6 text-center">
         <p className="text-white text-sm">©2023 Amazon | The site created by me</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
