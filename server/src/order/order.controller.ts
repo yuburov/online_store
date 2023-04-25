@@ -9,7 +9,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { OrderService } from './order.service';
-import { GetCurrentUserId, Public } from 'src/common/decorators';
+import { GetCurrentUserId, Public } from '../common/decorators';
 import { OrderDto, PaymentStatusDto } from './dto';
 
 @Controller('orders')

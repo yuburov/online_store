@@ -11,7 +11,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { UserService } from './user.service';
-import { GetCurrentUserId } from 'src/common/decorators';
+import { GetCurrentUserId } from '../common/decorators';
 import { UserDto } from './dto';
 
 @Controller('users')

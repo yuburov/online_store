@@ -13,7 +13,7 @@ import {
 } from '@nestjs/common';
 import { CategoryService } from './category.service';
 import { CategoryDto } from './dto';
-import { Public } from 'src/common/decorators';
+import { Public } from '../common/decorators';
 
 @Controller('categories')
 export class CategoryController {

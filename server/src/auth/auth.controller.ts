@@ -12,8 +12,8 @@ import { AuthService } from './auth.service';
 import { AuthDto } from './dto/auth.dto';
 import { Tokens } from './types';
 import { RtGuard } from '../common/guards/rt.guard';
-import { AtGuard } from 'src/common/guards';
-import { GetCurrentUser, Public } from 'src/common/decorators';
+import { AtGuard } from '../common/guards/at.guard';
+import { GetCurrentUser, Public } from '../common/decorators';
 import { GetCurrentUserId } from '../common/decorators/get-current-user-id.decorator';
 
 @Controller('auth')

@@ -14,7 +14,7 @@ import {
 } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { GetAllProductDto, ProductDto } from './dto';
-import { Public } from 'src/common/decorators';
+import { Public } from '../common/decorators';
 
 @Controller('products')
 export class ProductController {

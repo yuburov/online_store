@@ -8,7 +8,7 @@ import {
   ValidationPipe,
 } from '@nestjs/common';
 import { ReviewService } from './review.service';
-import { GetCurrentUserId, Public } from 'src/common/decorators';
+import { GetCurrentUserId, Public } from '../common/decorators';
 import { ReviewDto } from './dto';
 
 @Controller('reviews')

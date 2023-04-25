@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { PrismaService } from 'src/prisma/prisma.service';
+import { PrismaService } from '../prisma/prisma.service';
 import { OrderDto, PaymentStatusDto } from './dto';
 import { returnProductObject } from '../product/return-product.object';
 import * as YooKassa from 'yookassa';
