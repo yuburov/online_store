@@ -64,7 +64,7 @@ export class OrderService {
       },
       confirmation: {
         type: 'redirect',
-        return_url: 'http://localhost:3000/thanks',
+        return_url: 'https://online-store-yuburov.vercel.app/thanks',
       },
       description: `Order ${order.id}`,
     });

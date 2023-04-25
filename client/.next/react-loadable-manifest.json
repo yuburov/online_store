@@ -1,10 +1,4 @@
 {
-  "../components/ui/catalog/product-item/ProductItem.tsx -> ./FavoriteButton": {
-    "id": "../components/ui/catalog/product-item/ProductItem.tsx -> ./FavoriteButton",
-    "files": [
-      "static/chunks/src_components_ui_catalog_product-item_FavoriteButton_tsx.js"
-    ]
-  },
   "../providers/auth-provider/AuthProvider.tsx -> ./CheckRole": {
     "id": "../providers/auth-provider/AuthProvider.tsx -> ./CheckRole",
     "files": [
