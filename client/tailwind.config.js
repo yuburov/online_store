@@ -5,6 +5,7 @@ const colors = {
 	transparent: twColors.transparent,
 	black: '#2E3239',
 	white: twColors.white,
+	dark_gray: '#6e6c68ed',
 	gray: '#CDCDCD',
 	primary: '#FF9902',
 	secondary: '#161D25',

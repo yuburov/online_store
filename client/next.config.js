@@ -6,7 +6,7 @@ const nextConfig = {
     APP_URL: process.env.APP_URL
   },
   images: {
-    domains: ['loremflickr.com', 'www.myphone.kg', 'previews.123rf.com', 'sbcf.fr'],
+    domains: ['loremflickr.com', 'i.insider.com', 'previews.123rf.com', 'sbcf.fr'],
 } 
 }
 

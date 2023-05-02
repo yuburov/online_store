@@ -1,6 +1,5 @@
 import { IProduct } from "@/interfaces/product.interface";
 import { FC } from "react";
-import Loader from "../Loader";
 import ProductItem from "./product-item/ProductItem";
 import Heading from "../Heading";
 

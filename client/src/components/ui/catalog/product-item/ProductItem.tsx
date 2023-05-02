@@ -11,7 +11,7 @@ const DynamicFavoriteButton = dynamic(() => import("./FavoriteButton"));
 
 const ProductItem: FC<{ product: IProduct }> = ({ product }) => {
   return (
-    <div className="animate-scaleIn">
+    <div className="animate-scaleIn flex flex-col justify-between">
       <div className="bg-white rounded-xl relative overflow-hidden">
         <div className="absolute top-2 right-3 z-10">
           <DynamicFavoriteButton productId={product.id} />
@@ -26,18 +26,20 @@ const ProductItem: FC<{ product: IProduct }> = ({ product }) => {
           />
         </Link>
       </div>
-      <Link href={`/product/${product.slug}`}>
-        <h3 className="mt-2 font-semibold">{product.name}</h3>
-      </Link>
-      <Link
-        href={`/category/${product.category.slug}`}
-        className="text-aqua text-xs mb-2"
-      >
-        {product.category.name}
-      </Link>
-      <ProductRating product={product} />
-      <div className="text-xl font-semibold">
-        {convertPrice(product.price)}
+      <div>
+        <Link href={`/product/${product.slug}`}>
+          <h3 className="mt-2 font-semibold">{product.name}</h3>
+        </Link>
+        <Link
+          href={`/category/${product.category.slug}`}
+          className="text-aqua text-xs mb-2"
+        >
+          {product.category.name}
+        </Link>
+        <ProductRating product={product} />
+        <div className="text-xl font-semibold">
+          {convertPrice(product.price)}
+        </div>
       </div>
     </div>
   );

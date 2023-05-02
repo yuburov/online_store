@@ -45,7 +45,6 @@ export class ProductController {
     return this.productService.byCategory(categorySlug);
   }
 
-  @UsePipes(new ValidationPipe())
   @Post()
   @HttpCode(HttpStatus.OK)
   createProduct() {

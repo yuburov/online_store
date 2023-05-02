@@ -6,7 +6,6 @@ import HeaderCart from "./cart/HeaderCart";
 import HeaderProfile from "./HeaderProfile";
 import Search from "./Search";
 import { useAuth } from "@/hooks/useAuth";
-import MyOrdersPage from "@/pages/my-orders";
 
 const Header: FC = () => {
   const { user } = useAuth();
